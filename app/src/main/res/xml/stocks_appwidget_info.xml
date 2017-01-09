@@ -1,0 +1,10 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="180dp"
+    android:minHeight="40dp"
+    android:updatePeriodMillis="86400000"
+    android:initialLayout="@layout/stocks_collection_widget"
+    android:resizeMode="horizontal|vertical"
+    android:previewImage="@drawable/widget_preview"
+    android:configure="com.udacity.stockhawk.ui.SettingsActivity"
+    android:widgetCategory="home_screen">
+</appwidget-provider>
